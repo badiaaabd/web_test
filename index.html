@@ -1,0 +1,189 @@
+<!-- 
+
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+        </style>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مجلة إلكترونية</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style/style.css">
+    
+</head>
+<body>
+    
+    <header class=" text-black text-center py-3">
+        <h1>اسم المجلة</h1>
+        <p>شعار المجلة</p>
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">الرئيسية</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="articles.html">المقالات</a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html">حول المجلة</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">اتصل بنا</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container mt-4">
+        <section>
+            <h2>المقالات الأكثر قراءة</h2>
+        </section>
+
+        <section>
+            <h2>أحدث المقالات</h2>
+        </section>
+    </main>
+
+    <footer class="bg-dark text-white text-center py-3 mt-4">
+        <p>حقوق النشر © 2024 اسم المجلة. جميع الحقوق محفوظة.</p>
+        <p>معلومات الاتصال: example@example.com</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+    </style>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مجلة إلكترونية</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <header class="text-black text-center py-3">
+        <h1>اسم المجلة</h1>
+        <p>شعار المجلة</p>
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">الرئيسية</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="articles.html">المقالات</a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html">حول المجلة</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">اتصل بنا</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container mt-4">
+        <!-- Most Read Articles Section -->
+        <section>
+            <h2 class="mb-4">المقالات الأكثر قراءة</h2>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="card article-card" data-summary="نظرة على أحدث الابتكارات التكنولوجية.">
+                        <img src="images/tech.jpeg" class="card-img-top" alt="تقنية">
+                        <div class="card-body">
+                            <h5 class="card-title">أحدث التقنيات في 2024</h5>
+                            <button class="btn btn-primary view-summary">عرض الملخص</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="card article-card" data-summary="نصائح للحفاظ على صحتك.">
+                        <img src="images/health.jpg" class="card-img-top" alt="صحة">
+                        <div class="card-body">
+                            <h5 class="card-title">نصائح لصحة أفضل</h5>
+                            <button class="btn btn-primary view-summary">عرض الملخص</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="mt-5">
+            <h2 class="mb-4">أحدث المقالات</h2>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="card article-card" data-summary="تطور الثقافة مع التكنولوجيا.">
+                        <img src="images/culture.png" class="card-img-top" alt="ثقافة">
+                        <div class="card-body">
+                            <h5 class="card-title">الثقافة في العصر الحديث</h5>
+                            <button class="btn btn-primary view-summary">عرض الملخص</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="card article-card" data-summary="دليل المبتدئين لريادة الأعمال.">
+                        <img src="images/business.jpg" class="card-img-top" alt="ريادة الأعمال">
+                        <div class="card-body">
+                            <h5 class="card-title">أساسيات ريادة الأعمال</h5>
+                            <button class="btn btn-primary view-summary">عرض الملخص</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Modal for Article Summary -->
+    <div class="modal fade" id="summaryModal" tabindex="-1" aria-labelledby="summaryModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="summaryModalLabel">ملخص المقال</h5>
+                    <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p id="summaryContent"></p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">إغلاق</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-white text-center py-3 mt-4">
+        <p>حقوق النشر © 2024 اسم المجلة. جميع الحقوق محفوظة.</p>
+        <p>معلومات الاتصال: example@example.com</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- Custom JavaScript -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const summaryButtons = document.querySelectorAll('.view-summary');
+            const summaryContent = document.getElementById('summaryContent');
+
+            summaryButtons.forEach(button => {
+                button.addEventListener('click', function () {
+                    const summary = this.closest('.article-card').getAttribute('data-summary');
+                    summaryContent.textContent = summary;
+                    $('#summaryModal').modal('show');
+                });
+            });
+        });
+    </script>
+</body>
+</html>
