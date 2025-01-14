@@ -1,0 +1,79 @@
+body{
+   font-family: "Amiri";
+    direction: rtl;
+    line-height: 1.6;
+    background-color: black;
+   background-image: url(../images/health4.jpg) ;   
+   display: flex;
+   flex-direction: column;
+}
+
+header{
+    background-color: rgba(175, 191, 216, 0.829); ;
+    color: rgb(12, 12, 12);
+    padding: 20px 0 ;
+}
+
+h1{
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+
+}
+p{
+    font-size: 1.2em;
+margin-bottom: 1em;
+}
+nav{
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0,0, 0.1);
+}
+.nav-link{
+    padding: 10px 15px;
+}
+.container{
+    max-width: 960px;
+    margin: 0 auto;
+}
+main{
+    flex-grow: 1; /* Fills the space between the header and footer */
+    min-height: calc(100vh - 388px);
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    grid-gap: 20px;
+    padding: 20px;
+    direction: rtl;
+}
+section{
+    padding: 15 px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0 , 0, 0, 0.1);
+    border-radius: 5px ;
+}
+section h2{
+    font-size: 1.8em;
+    margin-bottom: 1em;
+    text-align: center;
+}
+article{
+    border: 1px solid #ccc;
+padding: 15px;
+border-radius: 5px;
+}
+.article-imge{
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+
+}
+footer{
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+.card-img-top {
+    width: 100%; /* Make the image responsive to its container */
+    height: 200px; /* Set a fixed height for uniformity */
+    object-fit: cover; /* Crop the image to fit the dimensions while maintaining its aspect ratio */
+    border-radius: 5px; /* Optional: Adds rounded corners for a polished look */
+}
